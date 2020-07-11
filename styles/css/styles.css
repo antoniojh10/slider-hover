@@ -31,7 +31,7 @@ ul {
 }
 
 h1 {
-  color: white;
+  color: #666666;
   font-size: 5em;
   font-weight: 100;
   letter-spacing: 0.2em;
@@ -136,7 +136,7 @@ mark {
   opacity: 1;
 }
 
-.center .left-text {
+.center {
   position: absolute;
   top: -50%;
   left: -20px;
@@ -167,7 +167,6 @@ mark {
 
 .img-wrap {
   position: relative;
-  width: 100%;
   overflow: hidden;
   border-radius: 50%;
   box-shadow: 0 3px 5px rgba(0, 0, 0, 0.02);
@@ -181,8 +180,8 @@ mark {
 }
 
 .img-wrap img {
-  width: 100%;
-  height: auto;
+  width: 40vw;
+  height: 40vw;
   display: block;
 }
 
