@@ -12,7 +12,23 @@
   </head>
   <body>
     <div id="parallax">
-      <div class="imagenes" data-depth="0.2">
+      <div class="layer" data-depth="0.1">
+        <div id="particles1"></div>
+      </div>
+      <div class="layer" data-depth="0.2">
+        <div id="particles2"></div>
+      </div>
+      <div class="layer" data-depth="0.2">
+        <div id="particles3"></div>
+      </div>
+      <div class="layer" data-depth="0.1">
+        <div id="particles4"></div>
+      </div>
+
+      <div
+        class="layer imagenes d-flex justify-content-center align-items-center"
+        data-depth="0.4"
+      >
         <div class="center">
           <div class="container">
             <div class="row justify-content-center">
@@ -52,14 +68,26 @@
       </div>
       <div
         class="layer d-flex flex-row justify-content-around align-items-center section"
-        data-depth="0.3"
+        data-depth="0.6"
       >
         <ul
           class="some-more-space slide-buttons d-flex flex-row justify-content-between align-items-center"
         >
-          <li><a ref="#" class="hover-target" data-hover="uno">Uno</a></li>
-          <li><a ref="#" class="hover-target" data-hover="dos">Dos</a></li>
-          <li><a ref="#" class="hover-target" data-hover="tres">Tres</a></li>
+          <li>
+            <a ref="#" class="hover-target" data-hover="01 Berrocal & Claro"
+              >01<br />Berrocal<br />& Claro</a
+            >
+          </li>
+          <li>
+            <a ref="#" class="hover-target" data-hover="02 Platcom"
+              >02<br />Platcom</a
+            >
+          </li>
+          <li>
+            <a ref="#" class="hover-target" data-hover="03 Carmarket"
+              >03<br />Carmarket</a
+            >
+          </li>
         </ul>
       </div>
     </div>
@@ -69,6 +97,8 @@
     <div class="cursor3" id="cursor3"></div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://matthew.wagerfield.com/parallax/deploy/jquery.parallax.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js"></script>
+
     <script src="function.js"></script>
   </body>
 </html>
